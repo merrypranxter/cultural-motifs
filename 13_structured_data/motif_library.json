@@ -1,0 +1,187 @@
+{
+  "motifs": [
+    {
+      "id": "egyptian_lotus_papyrus_border",
+      "label": "Lotus-and-papyrus border",
+      "region": "egyptian",
+      "category": "floral",
+      "visual_traits": ["alternating lotus and papyrus forms", "bilateral symmetry", "horizontal border band", "stylized plant profiles"],
+      "symbolic_roles": ["upper and lower Egypt (context-dependent)", "architectural border"],
+      "materials_contexts": ["carved stone column capitals", "painted tomb walls", "papyrus manuscript borders"],
+      "confusion_risks": ["generic floral border", "conflation with Greek palmette"],
+      "prompt_tags": ["egyptian", "lotus", "papyrus", "border", "column capital", "tomb painting"]
+    },
+    {
+      "id": "egyptian_winged_sun_disk",
+      "label": "Winged sun disk",
+      "region": "egyptian",
+      "category": "cosmology",
+      "visual_traits": ["central disk with flanking outstretched wings", "bilateral symmetry", "uraeus serpents on each side in some versions", "horizontal spread"],
+      "symbolic_roles": ["royal/divine protection", "placed above doorways and on pectorals"],
+      "materials_contexts": ["carved stone lintels", "painted temple ceilings", "gold and inlay pectorals"],
+      "confusion_risks": ["Assyrian winged disk (different formal conventions)", "generic 'winged emblem'"],
+      "prompt_tags": ["egyptian", "winged disk", "solar", "pectoral", "lintel", "protective emblem"]
+    },
+    {
+      "id": "islamic_star_tessellation",
+      "label": "Star-polygon tessellation",
+      "region": "islamic_world",
+      "category": "geometric",
+      "visual_traits": ["interlocking star polygons (6-, 8-, 10-, 12-fold)", "precise geometric construction", "strapwork interlace (girih)", "infinite-field repeat"],
+      "symbolic_roles": ["architectural surface decoration", "sometimes interpreted as reflecting cosmic order (debated)"],
+      "materials_contexts": ["cut-tile mosaic (zellige)", "carved stucco", "inlaid wood", "manuscript illumination border"],
+      "confusion_risks": ["generic 'geometric pattern'", "confusion with Gothic tracery", "conflation of Moroccan zellige with Ottoman Iznik tile"],
+      "prompt_tags": ["islamic", "geometric", "tessellation", "star polygon", "zellige", "girih", "tilework"]
+    },
+    {
+      "id": "islamic_vegetal_arabesque",
+      "label": "Vegetal arabesque (islimi)",
+      "region": "islamic_world",
+      "category": "floral",
+      "visual_traits": ["scrolling bifurcating vine", "abstracted leaves and flowers", "continuous curvilinear rhythm", "symmetrical branching"],
+      "symbolic_roles": ["surface fill", "border ornament", "sometimes paradise-garden association (context-dependent)"],
+      "materials_contexts": ["carved stucco", "painted tile", "manuscript illumination", "metalwork engraving", "textile"],
+      "confusion_risks": ["generic vine pattern", "conflation with European rinceau", "loose use of 'arabesque' for any curvy pattern"],
+      "prompt_tags": ["islamic", "arabesque", "islimi", "vegetal", "scroll", "vine"]
+    },
+    {
+      "id": "mesoamerican_stepped_fret",
+      "label": "Stepped fret (xicalcoliuhqui)",
+      "region": "mesoamerican",
+      "category": "geometric",
+      "visual_traits": ["angular spiral or stepped meander", "90-degree turns", "rectilinear", "used as border or field element"],
+      "symbolic_roles": ["architectural border", "possibly wind or water association in some contexts (debated)"],
+      "materials_contexts": ["carved stone", "painted stucco", "codex painting", "ceramic surface"],
+      "confusion_risks": ["Greek meander (different construction logic)", "generic zigzag pattern"],
+      "prompt_tags": ["mesoamerican", "stepped fret", "xicalcoliuhqui", "angular", "border", "geometric"]
+    },
+    {
+      "id": "mesoamerican_feathered_serpent",
+      "label": "Feathered serpent",
+      "region": "mesoamerican",
+      "category": "fauna",
+      "visual_traits": ["serpent body with quetzal feathers", "open jaws", "no wings, no legs", "often monumental scale"],
+      "symbolic_roles": ["associated with Quetzalcoatl/Kukulkan", "wind, creation, cultural hero (varies by tradition and period)"],
+      "materials_contexts": ["architectural sculpture", "carved stone balustrades", "painted stucco", "codex painting"],
+      "confusion_risks": ["European dragon (different anatomy entirely)", "Chinese dragon (different form and symbolism)", "generic 'serpent monster'"],
+      "prompt_tags": ["mesoamerican", "feathered serpent", "Quetzalcoatl", "Kukulkan", "architectural sculpture"]
+    },
+    {
+      "id": "chinese_dragon_long",
+      "label": "Chinese dragon (long/lóng)",
+      "region": "east_asian",
+      "subregion_or_culture": "Chinese",
+      "category": "fauna",
+      "visual_traits": ["serpentine body", "four clawed legs", "deer antlers", "whiskers", "no wings", "scaled body", "moves through clouds and water"],
+      "symbolic_roles": ["imperial authority (five-clawed = emperor)", "rain and water", "auspicious power"],
+      "materials_contexts": ["silk brocade", "ceramic/porcelain", "carved jade", "painted scroll", "architectural relief"],
+      "confusion_risks": ["European dragon (different anatomy, different symbolism)", "Japanese ryū (related but distinct)", "generic 'dragon'"],
+      "prompt_tags": ["chinese", "dragon", "long", "imperial", "cloud field", "serpentine"]
+    },
+    {
+      "id": "japanese_seigaiha",
+      "label": "Seigaiha (blue ocean waves)",
+      "region": "east_asian",
+      "subregion_or_culture": "Japanese",
+      "category": "geometric",
+      "visual_traits": ["overlapping concentric arcs", "regular repeat pattern", "scalloped rows", "high-contrast graphic form"],
+      "symbolic_roles": ["calm seas, good fortune (conventional, not cosmic)"],
+      "materials_contexts": ["stencil-dyed textile", "ceramic", "lacquer", "paper"],
+      "confusion_risks": ["generic scallop pattern", "Art Deco fan pattern (different origin)"],
+      "prompt_tags": ["japanese", "seigaiha", "wave", "textile pattern", "repeat", "blue and white"]
+    },
+    {
+      "id": "japanese_asanoha",
+      "label": "Asanoha (hemp leaf)",
+      "region": "east_asian",
+      "subregion_or_culture": "Japanese",
+      "category": "geometric",
+      "visual_traits": ["hexagonal star tessellation", "six-pointed star repeat", "clean angular lines", "all-over field pattern"],
+      "symbolic_roles": ["growth, health (often used for children's garments)", "conventional association, not cosmic"],
+      "materials_contexts": ["stencil-dyed cotton/silk", "woven textile", "paper", "woodwork"],
+      "confusion_risks": ["Islamic hexagonal tiling (different cultural context)", "generic star pattern"],
+      "prompt_tags": ["japanese", "asanoha", "hemp leaf", "hexagonal", "textile", "repeat"]
+    },
+    {
+      "id": "celtic_interlace",
+      "label": "Celtic interlace knotwork",
+      "region": "european",
+      "subregion_or_culture": "Celtic/Insular",
+      "category": "geometric",
+      "visual_traits": ["ribbon-like interlacing bands", "continuous over-under weaving", "contained in panels or borders", "often with animal-head terminals"],
+      "symbolic_roles": ["primarily compositional/decorative", "'eternity knot' is a modern popular interpretation"],
+      "materials_contexts": ["manuscript illumination (Book of Kells, Lindisfarne Gospels)", "carved stone crosses", "metalwork (brooches, reliquaries)"],
+      "confusion_risks": ["Islamic girih interlace (different construction logic)", "Norse beast interlace (integrates animal forms)", "generic 'Celtic' anything"],
+      "prompt_tags": ["celtic", "insular", "interlace", "knotwork", "manuscript", "stone cross"]
+    },
+    {
+      "id": "european_acanthus_scroll",
+      "label": "Acanthus leaf scroll",
+      "region": "european",
+      "subregion_or_culture": "Greco-Roman / Renaissance",
+      "category": "floral",
+      "visual_traits": ["deeply curved leaf forms", "scrolling continuous vine", "deeply carved or painted", "naturalistic-to-stylized range"],
+      "symbolic_roles": ["primarily compositional (capitals, friezes, borders)", "secondary associations vary by context"],
+      "materials_contexts": ["carved stone capitals (Corinthian)", "architectural friezes", "manuscript borders", "painted and stucco decoration"],
+      "confusion_risks": ["Islamic vegetal arabesque (different rhythm and abstraction level)", "generic 'vine pattern'"],
+      "prompt_tags": ["european", "greek", "roman", "renaissance", "acanthus", "scroll", "capital", "frieze"]
+    },
+    {
+      "id": "european_gothic_tracery",
+      "label": "Gothic tracery",
+      "region": "european",
+      "subregion_or_culture": "Gothic",
+      "category": "architecture",
+      "visual_traits": ["pointed-arch geometry", "branching mullion subdivisions", "quatrefoil and trefoil forms", "radial in rose windows"],
+      "symbolic_roles": ["architectural structure for windows", "adapted as surface ornament"],
+      "materials_contexts": ["carved stone window mullions", "stained glass framing", "manuscript borders", "carved wood"],
+      "confusion_risks": ["Islamic geometric patterns (similar visual weight but different construction)", "generic 'medieval' decoration"],
+      "prompt_tags": ["european", "gothic", "tracery", "pointed arch", "rose window", "stone"]
+    },
+    {
+      "id": "slavic_khokhloma",
+      "label": "Khokhloma scrollwork",
+      "region": "slavic_and_eurasian",
+      "subregion_or_culture": "Russian",
+      "category": "floral",
+      "visual_traits": ["curvilinear red and gold vegetal scrolls", "on black lacquer ground", "berries, leaves, and small flowers", "dense surface coverage"],
+      "symbolic_roles": ["decorative, domestic", "no fixed symbolic program"],
+      "materials_contexts": ["painted and lacquered wood", "bowls, spoons, trays, boxes"],
+      "confusion_risks": ["other Russian lacquer traditions (Palekh is figural, not vegetal)", "generic 'Russian pattern'"],
+      "prompt_tags": ["russian", "khokhloma", "lacquer", "gold", "red", "black", "vegetal scroll"]
+    },
+    {
+      "id": "slavic_cross_stitch_geometric",
+      "label": "Slavic cross-stitch geometric motifs",
+      "region": "slavic_and_eurasian",
+      "category": "textile",
+      "visual_traits": ["angular, grid-constrained forms", "diamonds, crosses, zigzags, stepped forms", "bilateral symmetry", "red thread on white/natural linen common"],
+      "symbolic_roles": ["domestic and ritual textile decoration", "some protective associations claimed but evidence varies"],
+      "materials_contexts": ["counted-thread embroidery on linen", "towels (rushnyky)", "garment yokes and cuffs", "woven belts"],
+      "confusion_risks": ["Scandinavian embroidery (related but distinct motif vocabulary)", "generic 'folk pattern'"],
+      "prompt_tags": ["slavic", "ukrainian", "russian", "cross-stitch", "embroidery", "geometric", "linen", "red thread"]
+    },
+    {
+      "id": "egyptian_scarab",
+      "label": "Scarab (khepri)",
+      "region": "egyptian",
+      "category": "fauna",
+      "visual_traits": ["beetle form with spread wings (in pectoral versions)", "compact rounded body", "detailed leg rendering", "often shown rolling solar disk"],
+      "symbolic_roles": ["solar rebirth, transformation (associated with khepri)", "used as seal, amulet, pectoral centerpiece"],
+      "materials_contexts": ["faience amulets", "gold and inlay pectorals", "carved stone seals", "painted manuscript"],
+      "confusion_risks": ["generic beetle illustration", "fantasy-coded 'glowing scarab'"],
+      "prompt_tags": ["egyptian", "scarab", "khepri", "solar", "amulet", "pectoral", "faience"]
+    },
+    {
+      "id": "islamic_muqarnas",
+      "label": "Muqarnas",
+      "region": "islamic_world",
+      "category": "architecture",
+      "visual_traits": ["stalactite-like three-dimensional vaulting", "nested niche elements", "cascading honeycomb effect", "used in transitional architectural zones"],
+      "symbolic_roles": ["architectural transition (square to dome)", "sometimes interpreted as celestial canopy (debated)"],
+      "materials_contexts": ["carved stucco", "brick construction", "painted wood", "stone"],
+      "confusion_risks": ["generic 'honeycomb pattern'", "3D-printed geometric art (different context entirely)"],
+      "prompt_tags": ["islamic", "muqarnas", "stalactite vault", "dome", "portal", "architectural"]
+    }
+  ]
+}

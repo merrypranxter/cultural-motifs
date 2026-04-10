@@ -1,0 +1,86 @@
+{
+  "cultures": [
+    {
+      "id": "egyptian",
+      "label": "Egyptian",
+      "region": "North Africa / Nile Valley",
+      "period_range": "c. 3100 BCE – 30 BCE",
+      "scope_notes": "Pharaonic through Ptolemaic. Does not cover Coptic or Islamic-period Egypt.",
+      "key_media": ["carved stone relief", "painted plaster", "faience", "gold and inlay jewelry", "papyrus manuscript"],
+      "key_motif_families": ["lotus and papyrus", "winged sun disk", "scarab", "uraeus", "eye of Horus", "ankh", "falcon", "jackal"],
+      "overview_file": "03_regions_and_cultures/egyptian/overview.md"
+    },
+    {
+      "id": "mesoamerican",
+      "label": "Mesoamerican",
+      "region": "Central America / Mexico",
+      "period_range": "c. 1500 BCE – 1521 CE",
+      "scope_notes": "Includes Maya, Aztec/Mexica, Zapotec, Mixtec, Olmec, Teotihuacano. Does not cover South American traditions.",
+      "sub_traditions": ["Maya", "Aztec/Mexica", "Zapotec", "Mixtec", "Olmec", "Teotihuacano"],
+      "key_media": ["carved limestone", "painted stucco", "codex painting", "jade carving", "ceramic"],
+      "key_motif_families": ["stepped fret", "feathered serpent", "jaguar", "skull and skeletal forms", "calendar and glyph systems", "serpent heads"],
+      "overview_file": "03_regions_and_cultures/mesoamerican/overview.md"
+    },
+    {
+      "id": "east_asian",
+      "label": "East Asian",
+      "region": "East Asia",
+      "scope_notes": "Covers Chinese, Japanese, and Korean traditions. These are distinct traditions with shared historical connections.",
+      "sub_traditions": ["Chinese", "Japanese", "Korean"],
+      "key_media": ["ink on paper/silk", "ceramic/porcelain", "lacquer", "silk textile", "bronze", "carved wood"],
+      "key_motif_families": ["dragon", "phoenix", "cloud forms", "lotus", "plum/chrysanthemum/orchid/bamboo", "wave patterns", "pine/crane/tortoise", "geometric textile patterns"],
+      "overview_file": "03_regions_and_cultures/east_asian/overview.md"
+    },
+    {
+      "id": "south_asian",
+      "label": "South Asian",
+      "region": "South Asia",
+      "scope_notes": "Covers Hindu, Buddhist, Jain, and Mughal traditions from the Indian subcontinent. Placeholder — full overview pending.",
+      "sub_traditions": ["Hindu", "Buddhist", "Jain", "Mughal"],
+      "key_media": ["carved stone", "bronze sculpture", "manuscript painting", "textile", "tile and marble"],
+      "key_motif_families": ["lotus", "deity iconography", "mandala", "jali screen geometry", "vine and scroll systems"],
+      "overview_file": "03_regions_and_cultures/south_asian/overview.md"
+    },
+    {
+      "id": "southeast_asian",
+      "label": "Southeast Asian",
+      "region": "Southeast Asia",
+      "scope_notes": "Covers traditions from Thailand, Cambodia, Indonesia, Myanmar, Vietnam, and related regions. Placeholder — full overview pending.",
+      "sub_traditions": ["Thai", "Khmer", "Javanese", "Balinese", "Burmese", "Vietnamese"],
+      "key_media": ["carved stone", "bronze", "textile (batik, ikat)", "lacquer", "painted manuscript"],
+      "key_motif_families": ["naga", "kala/makara", "lotus", "flame motifs", "batik patterns", "temple relief systems"],
+      "overview_file": "03_regions_and_cultures/southeast_asian/overview.md"
+    },
+    {
+      "id": "islamic_world",
+      "label": "Islamic World",
+      "region": "Middle East / North Africa / Central Asia / South Asia / Iberia",
+      "period_range": "c. 7th century CE – pre-modern",
+      "scope_notes": "Covers Arab, Persian, Turkic, Moorish/Andalusian, Mughal, and Central Asian traditions. 'Islamic art' is a scholarly convenience, not a claim of stylistic unity.",
+      "sub_traditions": ["Arab", "Persian", "Ottoman/Turkic", "Moorish/Andalusian", "Mughal", "Central Asian"],
+      "key_media": ["cut-tile mosaic (zellige)", "painted ceramic tile", "carved stucco", "manuscript illumination", "inlaid metalwork", "textile and carpet", "carved wood (mashrabiyya)"],
+      "key_motif_families": ["star-polygon tessellation", "vegetal arabesque (islimi)", "calligraphic ornament", "muqarnas", "medallion and cartouche", "geometric interlace (girih)", "palmette"],
+      "overview_file": "03_regions_and_cultures/islamic_world/overview.md"
+    },
+    {
+      "id": "slavic_and_eurasian",
+      "label": "Slavic and Eurasian",
+      "region": "Eastern Europe / Central Eurasia",
+      "scope_notes": "Covers Slavic folk traditions (Russian, Ukrainian, Polish, Czech, etc.) and related Eurasian crossover patterns. Distinct from Western European traditions.",
+      "sub_traditions": ["Russian", "Ukrainian", "Polish", "Czech", "Belarusian", "Serbian"],
+      "key_media": ["embroidery on linen", "painted wood/lacquer", "ceramic (Gzhel)", "woven textile", "paper cut (wycinanki)", "metal and enamel", "carved wood"],
+      "key_motif_families": ["stylized floral", "tree of life", "firebird", "double-headed eagle", "geometric cross-stitch", "rooster and bird forms", "Khokhloma scrollwork"],
+      "overview_file": "03_regions_and_cultures/slavic_and_eurasian/overview.md"
+    },
+    {
+      "id": "european",
+      "label": "European",
+      "region": "Europe",
+      "scope_notes": "Covers Greco-Roman, Celtic/Insular, medieval Christian, Renaissance, Baroque, and selected folk traditions. Slavic traditions covered separately.",
+      "sub_traditions": ["Greek", "Roman", "Celtic/Insular", "Byzantine", "Romanesque", "Gothic", "Renaissance", "Baroque", "Scandinavian/Norse"],
+      "key_media": ["carved stone", "manuscript illumination", "fresco", "stained glass", "metalwork", "tapestry", "ceramic"],
+      "key_motif_families": ["acanthus scroll", "palmette and anthemion", "meander/Greek key", "Celtic interlace", "Gothic tracery", "grotesque/candelabra", "heraldic devices", "egg-and-dart", "vine and grape scroll", "Norse beast interlace"],
+      "overview_file": "03_regions_and_cultures/european/overview.md"
+    }
+  ]
+}

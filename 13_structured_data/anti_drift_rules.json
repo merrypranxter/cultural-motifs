@@ -1,0 +1,64 @@
+{
+  "anti_drift_rules": [
+    {
+      "id": "no_vague_labels",
+      "rule": "Do not use vague aesthetic labels as substitutes for specific cultural or formal terms.",
+      "forbidden_terms": ["tribal", "exotic", "oriental", "primitive", "ethnic pattern", "ancient vibe", "mystic geometry", "sacred energy"],
+      "repair": "Replace with specific culture, region, motif family, and material."
+    },
+    {
+      "id": "no_culture_flattening",
+      "rule": "Do not treat distinct traditions as interchangeable.",
+      "examples": [
+        "Maya and Aztec/Mexica are not interchangeable",
+        "Chinese and Japanese visual arts are not identical",
+        "Islamic geometric pattern is not a synonym for all ornament from the Islamic world",
+        "Russian folk ornament is not generic European medieval"
+      ],
+      "repair": "Name the specific tradition. If comparing, name both and preserve distinctions."
+    },
+    {
+      "id": "no_invented_symbolism",
+      "rule": "Do not present uncertain or invented symbolic meanings as fact.",
+      "safe_phrases": ["often associated with", "commonly used in", "one recurring interpretation is", "context-dependent", "not universal across all examples"],
+      "repair": "Qualify claims. Reduce symbolic section if evidence is thin. Focus on visual form."
+    },
+    {
+      "id": "no_fantasy_drift",
+      "rule": "Do not allow outputs to drift into fantasy, sci-fi, or pseudo-historical versions of cultural traditions.",
+      "common_triggers": ["Egyptian + glow effects", "Celtic + magical energy", "Mesoamerican + alien technology", "Viking + dark fantasy"],
+      "repair": "Specify real materials, real compositions, real periods. Add exclusion language."
+    },
+    {
+      "id": "no_decorative_soup",
+      "rule": "Do not blend multiple traditions into one generic 'world ornament' aesthetic.",
+      "repair": "Anchor to one tradition per output. If combining, name sources explicitly and assign compositional roles."
+    },
+    {
+      "id": "no_tourist_shop_tone",
+      "rule": "Do not write in the tone of a gift shop plaque, pseudo-mystical caption, or fantasy lore entry.",
+      "indicators": ["breathless reverence", "fake scholarly tone", "incense-smoke mysticism", "sacred-everything inflation"],
+      "repair": "Write clearly, structurally, and without fake mysticism. Sound smart and grounded, not breathless."
+    },
+    {
+      "id": "separate_form_from_meaning",
+      "rule": "Always distinguish what a motif looks like from what it may symbolize.",
+      "repair": "Describe visual form first. Add symbolic notes as qualified secondary information."
+    },
+    {
+      "id": "specify_material_context",
+      "rule": "Always specify the material or medium when describing a motif.",
+      "repair": "Add material context: carved stone, painted ceramic, silk textile, manuscript illumination, etc."
+    },
+    {
+      "id": "include_confusion_risks",
+      "rule": "Every culture or motif file should identify what the subject is commonly confused with.",
+      "repair": "Add a confusion-risks section naming specific confused pairs."
+    },
+    {
+      "id": "narrow_when_uncertain",
+      "rule": "If uncertain, go narrower. Reduce claims rather than fabricate breadth.",
+      "repair": "Narrow the scope. Reduce symbolic claims. Focus on what is formally visible."
+    }
+  ]
+}
